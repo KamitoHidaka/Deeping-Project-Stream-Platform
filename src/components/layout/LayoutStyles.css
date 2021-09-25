@@ -1,0 +1,73 @@
+/*-----Header-----*/
+.header-container{
+    background-color: #2c2c2c;
+    padding: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    width: 6rem;
+}
+@keyframes shakeImg{
+    10%{transform: rotate(-3deg);}
+    20%{transform: rotate(3deg);}
+    30%{transform: rotate(-6deg);}
+    40%{transform: rotate(6deg);}
+    50%{transform: rotate(-8deg);}
+    60%{transform: rotate(8deg);}
+    70%{transform: rotate(-6deg);}
+    80%{transform: rotate(6deg);}
+    90%{transform: rotate(-3deg);}
+    100%{transform: rotate(3deg);}
+}
+.header-logo:hover{
+    animation: shakeImg 3s;
+    animation-iteration-count: infinite;
+}
+
+.contenent{
+    display: grid;
+    grid-template-columns: repeat(auto-fill);
+    background-color: #3c3c3c;
+    min-height: 91vh;
+    padding: 1rem;
+}
+/*-----Footer-----*/
+.footer-container{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.footer-icon img{
+    width: 14rem;
+}
+.footer-sections{
+    background-color: #2c2c2c;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+.footer-sections section{
+    border-left: #ffffff solid;
+    padding-left: 2rem;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-sections section:first-of-type{
+    border: none;
+    width: 20vw;
+}
+.footer-c div{
+    display: flex;
+    align-items: center;
+}
+.footer-c div p{
+    margin-left: 3.5rem;
+}
+.footer-extra{
+    background-color: #4c4c4c;
+}

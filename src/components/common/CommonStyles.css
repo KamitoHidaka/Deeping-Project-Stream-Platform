@@ -1,0 +1,41 @@
+/*-----Button-----*/
+.button-container{
+    display: inline-block;
+    background-color: #2c2c2c;
+    color: #ffffff;
+    width: max-content;
+    padding: .7rem 1.3rem;
+    margin: 1rem;
+    border-radius: 5rem;
+}
+.button-container:hover{
+    background-color: #ffffff;
+    color: #000000;
+    transition: ease-in .25s;
+}
+/*-----Billboard-----*/
+.billboard-container{
+    background-color: #1c1c1c;
+    height: 30.5rem;
+    width: 22rem;
+    padding: .5rem;
+    color: #ffffff;
+    margin: .5rem;
+    border: #464646 solid .32rem;
+    border-radius: 1rem;
+}
+.billboard-container:hover{
+    filter: opacity(70%) blur(.07rem);
+    border: solid .3rem #00CCFF ;
+}
+.billboard-container img{
+    width: 100%;
+}
+.billboard-container p{
+    line-height: 1.8rem;
+    font-size: 1.8rem;
+    text-align: center;
+}
+.billboard-image{
+    height: 23rem;
+}
