@@ -1,16 +1,26 @@
 import { Link } from 'react-router-dom';
-export const Billboard = ({movie}) =>{
+export const Billboard = ({movie, url, img, name}) =>{
     return(
+        // <div className='billboard-container'>
+        //     <Link to={"/Summary/" + movie.id}>
+        //         <div className='billboard-image'
+        //             style={{
+        //                 backgroundImage: `url(${movie.billboard})`
+        //             }}>
+        //         </div> 
+        //         <p>{movie.title}</p>
+        //     </Link>
+        // </div>
         <div className='billboard-container'>
-            <Link to={"/Summary/" + movie.id}>
+            <Link to={"/Summary/"+url}>
                 <div className='billboard-image'
                     style={{
-                        backgroundImage: `url(${movie.billboard})`
+                        backgroundImage: `url(${img})`
                     }}>
                 </div> 
-                <p>{movie.title}</p>
+                <p>{name}</p>
             </Link>
-        </div>        
+        </div>     
         
     );
 }

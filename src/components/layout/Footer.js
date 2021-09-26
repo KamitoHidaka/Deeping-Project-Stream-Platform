@@ -38,7 +38,7 @@ export const Footer = () => {
                 </section>
             </div>
             <div className='footer-extra'>
-                <p>fsdfsdfsdf</p>
+                <small>Derechos de Autor</small>
             </div>
         </div>    
     );

@@ -7,6 +7,13 @@
     align-items: center;
 }
 .header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #c2c2c2;
+    width: 24rem;
+}
+.header-logo img{
     width: 6rem;
 }
 @keyframes shakeImg{
@@ -73,16 +80,28 @@
 }
 .footer-extra{
     background-color: #4c4c4c;
+    padding: .5rem;
 }
 /*-----Contact-----*/
-.contact-container{
+.form-container{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #3c3c3c;
 }
-.contact-form{
-    width:max-content; 
+.form-title{
+    background-color: #333333;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    width: 45rem;
+}
+.form-title h3{
+    text-align: justify;
+}
+.form{
+    width:50rem; 
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -93,14 +112,14 @@
     padding: 1.5rem;
     color: #c2c2c2;
   }
-  .contact-form section{
+  .form section{
       display: flex;
       flex-direction: column;
   }
-  .contact-form label{
+  .form label{
       font-weight:600;
   }
-  .contact-form input, .user-comment textarea{
+  .form input, .user-comment textarea{
     background-color: #b8b8b8; 
     width: 45rem; 
     height: 4.2rem; 
@@ -124,10 +143,61 @@
     background-color: #308A8A; 
     border-radius: 1rem;  
     width: 40rem;   
+    font-size: 1.6rem;
+    margin: 1rem;
   }
   .user-send:hover{
     transition: ease-in .2s;  
     background-color:#56a0a0 ;
-    color: #4e4e4e;
-      
+    color: #4e4e4e;   
   }
+  /*-----Login-----*/
+
+.user-extra{
+    display: flex;
+    justify-content: space-between;
+    width: 42rem;
+}
+  .user-remember{
+    display: flex;
+}
+.user-remember input{
+    width: 2rem;
+}
+/*-----Summary-----*/
+.movie-container{
+    background-color: #3c3c3c;
+    display: flex;
+    justify-content: center;
+    color: #c2c2c2;
+
+}
+.summary-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4F4F4F;
+    width: 120rem;
+    margin: 2rem;
+    padding: 3rem;
+    border-radius: 1.5rem;
+
+}
+.movie-header{
+    display: flex;
+    background-color: #333333;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1.5rem;
+}
+.movie-header img{
+    border-radius: 1.5rem;
+    width:25rem;
+    height: 35rem;
+}
+.movie-info{
+    width: 80rem;
+    padding-left: 3rem;
+    text-align: justify;
+}
