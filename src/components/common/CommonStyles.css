@@ -16,26 +16,27 @@
 /*-----Billboard-----*/
 .billboard-container{
     background-color: #1c1c1c;
-    height: 30.5rem;
-    width: 22rem;
+    height: 32rem;
+    width: 23rem;
     padding: .5rem;
-    color: #ffffff;
-    margin: .5rem;
     border: #464646 solid .32rem;
     border-radius: 1rem;
+    text-decoration: none;
+
 }
 .billboard-container:hover{
     filter: opacity(70%) blur(.07rem);
     border: solid .3rem #00CCFF ;
 }
-.billboard-container img{
-    width: 100%;
-}
 .billboard-container p{
-    line-height: 1.8rem;
-    font-size: 1.8rem;
+    line-height: 1.9rem;
     text-align: center;
+    color: white;
 }
 .billboard-image{
-    height: 23rem;
+    height: 24rem;
+    background-size: contain;
+    border-radius: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;   
 }

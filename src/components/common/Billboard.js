@@ -1,17 +1,16 @@
-export const Billboard = ({imgsrc, name, onClick }) =>{
+import { Link } from 'react-router-dom';
+export const Billboard = ({movie}) =>{
     return(
-        <div className='billboard-container' onClick={onClick}>
-            <div 
-                className='billboard-image'
-                style={{
-                    backgroundImage: `url(${imgsrc})`, 
-                    backgroundSize:'contain',
-                    borderRadius: '1rem',
-                    backgroundRepeat:'no-repeat',
-                    backgroundPosition:'center'
-                }}>
-            </div> 
-            <p>{name}</p>
-        </div>
+        <div className='billboard-container'>
+            <Link to={"/Summary/" + movie.id}>
+                <div className='billboard-image'
+                    style={{
+                        backgroundImage: `url(${movie.billboard})`
+                    }}>
+                </div> 
+                <p>{movie.title}</p>
+            </Link>
+        </div>        
+        
     );
 }
