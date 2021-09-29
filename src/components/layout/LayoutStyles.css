@@ -6,6 +6,16 @@
     justify-content: space-between;
     align-items: center;
 }
+.header-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #c2c2c2;
+    width: 24rem;
+}
+.header-logo img{
+    width: 6rem;
+}
 @keyframes shakeImg{
     10%{transform: rotate(-3deg);}
     20%{transform: rotate(3deg);}

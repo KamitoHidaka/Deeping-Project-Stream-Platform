@@ -40,14 +40,3 @@
     background-repeat: no-repeat;
     background-position: center;   
 }
-/*-----Logo-----*/
-.logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: #c2c2c2;
-    width: 24rem;
-}
-.logo img{
-    width: 6rem;
-}

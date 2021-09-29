@@ -43,6 +43,8 @@ export const SKimetsu = () => {
             width="70rem"
             controls
             muted={false}
+            volume={.4}
+
           />
           </div>
         </div>
