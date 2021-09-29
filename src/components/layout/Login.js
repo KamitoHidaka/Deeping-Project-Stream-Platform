@@ -7,7 +7,7 @@ export const Login = ({}) => {
     <>
       <Header />
       <div className="form-container">
-        <form action="" method="post" className="form">
+        <form action="" method="" className="form">
           <div className="form-title">
             <h1>Iniciar Sesion</h1>
           </div>

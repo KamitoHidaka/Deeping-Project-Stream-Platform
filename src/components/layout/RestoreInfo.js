@@ -5,7 +5,7 @@ export const RestoreInfo = () => {
     <>
       <Header />
       <div className="form-container">
-        <form action="" method="post" className="form">
+        <form action="" method="" className="form">
           <div className="form-title">
             <h1>Steal Time</h1>
             <h3>

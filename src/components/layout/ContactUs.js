@@ -15,7 +15,7 @@ export const ContactUs = ({}) => {
     <>
       <Header />
       <div className="form-container">
-        <form action="" method="POST" className="form">
+        <form action="" method="" className="form">
           <div className="form-title">
             <h1>Contactate con Nosotros</h1>
             <h3>
@@ -35,7 +35,7 @@ export const ContactUs = ({}) => {
             <label htmlFor="comment">Comentario o Mensaje</label>
             <textarea rows="10" required />
           </section>
-          <button type="submit" className="user-send" onClick={messageSended}>
+          <button type="submit" className="user-send">
             ENVIAR
           </button>
         </form>

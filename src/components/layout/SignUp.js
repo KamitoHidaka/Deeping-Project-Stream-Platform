@@ -6,7 +6,7 @@ export const SignUp = () => {
     <>
       <Header />
       <div className="form-container">
-        <form action="POST" className="form">
+        <form action="" className="form">
           <div className="form-title">
             <h1>Bienvenido a StealTime</h1>
             <h3>Para registrarte ingresa los datos correspondientes</h3>

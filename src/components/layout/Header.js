@@ -1,18 +1,17 @@
 import "./LayoutStyles.css";
-import logo from "../../assets/webicon.png";
 import { CustomButton } from "../common/CustomButton";
 import { Link } from "react-router-dom";
+import { Logo } from "../common/Logo";
 
 export function Header() {
   return (
     <div className="header-container">
       <div className="header-logo">
         <Link to="/">
-        <img src={logo} alt="logo"/>
-      </Link>
-      <h1>StealTime</h1>
+          <Logo/>
+        </Link>
       </div>
-      
+
       <nav>
         <Link to="/">
           <CustomButton name="Inicio" />
